@@ -11,17 +11,64 @@
     <script src="app.js"></script>
   </head>
   <body>
-    <h1>(TestNet) NONCE Checker</h1>
-    <button onclick="updateInfo();">Actulizar</button>
-    <h2>Manuel</h2>
-    <h2>Johan</h2>
-    <h2>Guillermo</h2>
-    <p>0xf93e2E6B8018D4c3aaf455cfE2b20463E10162d0: </p>
-    <div id="0xf93e2E6B8018D4c3aaf455cfE2b20463E10162d0"></div>  
-    <p>0xA246C82ddd6D13c8C2cBF7A6e2838A9e65c8DA19: </p>
-    <div id="0xA246C82ddd6D13c8C2cBF7A6e2838A9e65c8DA19"></div>  
-    <p>0xa9C4b0EB0Ede565539B6E80cd14096B3f276F79A: </p>
-    <div id="0xa9C4b0EB0Ede565539B6E80cd14096B3f276F79A"></div>  
-    <br>
+    <style type='text/css'>
+        body {
+            background-color: grey
+        }
+
+        .myButton {
+            box-shadow: 0px 1px 0px 0px #fff6af;
+            background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+            background-color:#ffec64;
+            border-radius:6px;
+            border:1px solid #ffaa22;
+            display:inline-block;
+            cursor:pointer;
+            color:#333333;
+            font-family:Arial;
+            font-size:15px;
+            font-weight:bold;
+            padding:6px 24px;
+            text-decoration:none;
+            text-shadow:0px 1px 0px #ffee66;
+        }
+        .myButton:hover {
+            background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+            background-color:#ffab23;
+        }
+        .myButton:active {
+            position:relative;
+            top:1px;
+        }
+
+        .redondeadonorelieve {
+            border-radius: 5px;
+            border: 1px solid #39c;
+            text-align: center;
+            line-height: 30px;
+        }
+
+        .center {
+            margin: auto;
+            padding: 10px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+    <div class="center">
+      <h1>(TestNet) NONCE Checker</h1>
+      <button class="myButton" onclick="updateInfo();">Actulizar</button>
+      <h2>Manuel</h2>
+      <h2>Johan</h2>
+      <h2>Guillermo</h2>
+      <p>0xf93e2E6B8018D4c3aaf455cfE2b20463E10162d0: </p>
+      <div id="0xf93e2E6B8018D4c3aaf455cfE2b20463E10162d0"></div>  
+      <p>0xA246C82ddd6D13c8C2cBF7A6e2838A9e65c8DA19: </p>
+      <div id="0xA246C82ddd6D13c8C2cBF7A6e2838A9e65c8DA19"></div>  
+      <p>0xa9C4b0EB0Ede565539B6E80cd14096B3f276F79A: </p>
+      <div id="0xa9C4b0EB0Ede565539B6E80cd14096B3f276F79A"></div>  
+      <br>
+    </div>
   </body>
 </html>
